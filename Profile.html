@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +18,7 @@
 		<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
 		      	<div class="container">
 		            <div class="navbar-header page-scroll">
-		                <a class="navbar-calcories page-scroll" href="index.html" style="color:#333333;">Calcories</a>
+		                <a class="navbar-calcories page-scroll" href="index.html" style="color:#F27935;">Calcories</a>
 		            </div>
 		            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		                <ul class="nav navbar-nav navbar-right">
@@ -25,16 +26,16 @@
 		                        <a href="#page-top"></a>
 		                    </li>
 		                    <li>
-		                        <a class="page-scroll" href="index.html#about" style="color:#333333;">About</a>
+		                        <a class="page-scroll" href="index.html#about" style="color:#F27935;">About</a>
 		                    </li>
 		                    <li>
-		                        <a class="page-scroll" href="index.html#portfolio" style="color:#333333;">Voucher</a>
+		                        <a class="page-scroll" href="index.html#portfolio" style="color:#F27935;">Voucher</a>
 		                    </li>
 		                    <li>
-		                        <a class="page-scroll" href="index.html#team" style="color:#333333;">Team</a>
+		                        <a class="page-scroll" href="index.html#team" style="color:#F27935;">Team</a>
 		                    </li>
 		                    <li>
-		                        <a class="page-scroll" href="Login.html" style="color:#333333;">Log in</a>
+		                        <a class="page-scroll" href="Login.html" style="color:#F27935;">Log in</a>
 		                    </li>
 		                </ul>
 		            </div>  
@@ -53,7 +54,7 @@
 					        	<i class="fa fa-user fa-4x"></i>
 					            <!--<img alt="" src="http://lorempixel.com/100/100/people/9/">-->
 					        </div>
-					        <div class="card-info"> <span class="card-title">Noojiw Dekdok</span>
+					        <div class="card-info"> <span class="card-title"><a href="Profile.html">Noojiw Dekdok</a></span>
 
 					        </div>
 					    </div>
@@ -64,13 +65,13 @@
 					            </button>
 					        </div>
 					        <div class="btn-group" role="group">
-					            <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab"><span class="fa fa-cutlery" aria-hidden="true"></span>
-					                <div class="hidden-xs">Calrories</div>
+					            <button type="button" id="following" class="btn btn-default" href="#coins" data-toggle="tab"><span class="fa fa-money" aria-hidden="true"></span>
+					                <div class="hidden-xs">Coins</div>
 					            </button>
 					        </div>
 					        <div class="btn-group" role="group">
-					            <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab"><span class="fa fa-bicycle" aria-hidden="true"></span>
-					                <div class="hidden-xs">Activity</div>
+					            <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab"><span class="fa fa-cutlery" aria-hidden="true"></span>
+					                <div class="hidden-xs">Calrories</div>
 					            </button>
 					        </div>
 					    </div>
@@ -86,6 +87,26 @@
 									        		<td><strong>Gender</strong></td>
 									        		<td>Female</td>
 									        	</tr>
+									        	<tr>
+									        		<td><strong>Age</strong></td>
+									        		<td>10</td>
+									        	</tr>
+									        	<tr>
+									        		<td><strong>Height</strong></td>
+									        		<td>140</td>
+									        	</tr>
+									        	<tr>
+									        		<td><strong>Weight</strong></td>
+									        		<td>35</td>
+									        	</tr>
+									        	<tr>
+									        		<td><strong>BMI</strong></td>
+									        		<td>18.5</td>
+									        	</tr>
+									        	<tr>
+									        		<td><strong>Cal per day</strong></td>
+									        		<td>1700</td>
+									        	</tr>
 									        </table>
 							        	</div>
 					        		</div>
@@ -93,8 +114,19 @@
 						        	<div class="col-sm-4">
 						        	</div>
 					        </div>
-					        <div class="tab-pane fade in" id="tab2">
-					          <h3>This is tab 2</h3>
+					        <div class="tab-pane fade in active" id="coins">
+					        	<div class="row">
+					        		<div class="col-sm-8">
+							        	<div class="table-responsive">
+							        		<table class="table" style="border:0;">
+							        		<tr>
+							        			<td><img src="http://image.flaticon.com/icons/svg/138/138292.svg" height="20%"><h4>Your coins:</h4></td>
+							        			<td><h3>0</h3></td>
+							        		</tr>
+							        		</table>
+							        	</div>
+					        		</div>
+					        	</div>
 					        </div>
 					        <div class="tab-pane fade in" id="tab3">
 					          <h3>This is tab 3</h3>
@@ -105,4 +137,48 @@
 				</div>
 			</div>
 		</div>
+			    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
 	</body>
+
+	<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">2016 JSP Project "Calcories"</span>
+                </div>
+                <div class="col-md-4"><!--
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>-->
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="https://www.sit.kmutt.ac.th/">SIT</a>
+                        </li>
+                        <li><a href="http://www.kmutt.ac.th/">KMUTT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>
