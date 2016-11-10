@@ -5,12 +5,23 @@
  }
 
  .rewardcard {
-    border: 2px;
+    border: 1px;
     border-style: solid;
     border-color: #333333;
     border-radius: 5px;
-    margin-top: 5px
-    margin-left: 20px;
+    margin-left: 10px;
+    max-width: 250px;
+ }
+ .showcoin {
+    border: 1px;
+    border-style: solid;
+    border-color: #F9BF3B;
+    border-radius: 5px;
+    margin-top: 20px;
+ }
+ .showreward {
+    padding: 20px; 
+    box-sizing: border-box;
  }
  .card {
     margin-top: 20px;
