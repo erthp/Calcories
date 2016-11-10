@@ -1,4 +1,17 @@
 /* USER PROFILE PAGE */
+@import url(https://fonts.googleapis.com/css?family=Kanit:200);
+ h2 {
+    font-family: 'Kanit', sans-serif;
+ }
+
+ .rewardcard {
+    border: 2px;
+    border-style: solid;
+    border-color: #333333;
+    border-radius: 5px;
+    margin-top: 5px
+    margin-left: 20px;
+ }
  .card {
     margin-top: 20px;
     padding: 30px;
