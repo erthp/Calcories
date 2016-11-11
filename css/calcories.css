@@ -1,0 +1,10 @@
+table tr:first-child td:first-child {
+    border-top-left-radius: 10px;
+}
+
+table tr:first-child td:last-child {
+    border-top-right-radius: 10px;
+}
+table tr:first-child td{
+	border: none;
+}
