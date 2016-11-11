@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Dessert List</title>
+</head>
+<body>
+    <h1>Dessert</h1>
+    <hr>
+    <center>
+        <form class="form-inline" action="DessertListServlet" method="post">
+            <div class="form-group">
+
+                <div class="input-group">
+                    <div class="input-group-addon">
+                        <img src="magnifying-glass-browser.png">
+                    </div>
+                    <input type="text" class="form-control" name='searchParam' placeholder = "Enter the Menu">   
+                </div>
+            </div>
+            <button type="submit" class="btn btn-default">Search</button>
+        </form> 
+    </center>
+    <br>
+    <br>
+    <div>
+        <table class="table" style="text-align: center">
+            
+            <tr style="background-color: orange; color: white">
+                <td>No.</td>
+                <td>Menu</td>
+                <td>Unit</td>
+                <td>Calories</td>
+                <td>Add to my calories</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Chocolate cake</td>
+                <td>1</td>
+                <td>185 cal</td>
+                <td>
+                    <input type="checkbox" name="did" title="Add to my calories"/>
+                </td>                           
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Rice</td>
+                <td>1</td>
+                <td>15 cal</td>
+                <td>
+                    <input type="checkbox" name="did" title="Add to my calories"/>
+                </td>                           
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Rice</td>
+                <td>1</td>
+                <td>15 cal</td>
+                <td>
+                    <input type="checkbox" name="did" title="Add to my calories"/>
+                </td>                           
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Rice</td>
+                <td>1</td>
+                <td>15 cal</td>
+                <td>
+                    <input type="checkbox" name="did" title="Add to my calories"/>
+                </td>                           
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Rice</td>
+                <td>1</td>
+                <td>15 cal</td>
+                <td>
+                    <input type="checkbox" name="did" title="Add to my calories"/>
+                </td>                           
+            </tr>
+        </table>
+        <br>
+        <br>
+        <div style="text-align: right; padding-right: 5%">
+            <button type="submit" class="btn btn-default">Add to my calories</button>
+        </div>
+    </div>
+</body>
+</html>
