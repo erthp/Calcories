@@ -1,7 +1,7 @@
 <script type="text/javascript">
 function ageCount() {
     var date1 = new Date();
-    var dob = document.getElementById("from-date").value;
+    var dob = document.getElementById("form-date").value;
     var date2 = new Date(dob);
     var pattern = /^\d{1,2}\/\d{1,2}\/\d{4}$/;
     //Regex to validate date format (dd/mm/yyyy)       
@@ -12,8 +12,8 @@ function ageCount() {
         //getting dob year            
         var age = y1 - y2;
         //calculating age                       
-        document.getElementById("from-age").value = age;
-        doucment.getElementById("from-age").focus ();
+        document.getElementById("form-age").value = age;
+        document.getElementById("form-age").focus ();
         return true;
     } else {
         alert("Invalid date format. Please Input in (dd/mm/yyyy) format.");
