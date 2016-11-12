@@ -13,3 +13,23 @@ input[type=number] {
     border: none;
     border-bottom: 1px solid #F39C12;
 }
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #F39C12;
+}
+input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #F39C12;
+}
+input[type=password] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #F39C12;
+}
+input[type=date] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #F39C12;
+}
