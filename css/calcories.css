@@ -8,3 +8,8 @@ table tr:first-child td:last-child {
 table tr:first-child td{
 	border: none;
 }
+input[type=number] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #F39C12;
+}
