@@ -10,10 +10,10 @@ function ageCount() {
         //getting current year            
         var y2 = date2.getFullYear();
         //getting dob year            
-        var age = y1 - y2;
+        var age = y1-y2;
         //calculating age                       
         document.getElementById("form-age").value = age;
-        document.getElementById("form-age").focus ();
+        document.getElementById("form-age").focus();
         return true;
     } else {
         alert("Invalid date format. Please Input in (dd/mm/yyyy) format.");
