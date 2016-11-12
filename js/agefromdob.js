@@ -1,23 +1,5 @@
-<script type="text/javascript">
-function ageCount() {
-    var date1 = new Date();
-    var dob = document.getElementById("form-date").value;
-    var date2 = new Date(dob);
-    var pattern = /^\d{1,2}\/\d{1,2}\/\d{4}$/;
-    //Regex to validate date format (dd/mm/yyyy)       
-    if (pattern.test(dob)) {
-        var y1 = date1.getFullYear();
-        //getting current year            
-        var y2 = date2.getFullYear();
-        //getting dob year            
-        var age = y1-y2;
-        //calculating age                       
-        document.getElementById("form-age").value = age;
-        document.getElementById("form-age").focus();
-        return true;
-    } else {
-        alert("Invalid date format. Please Input in (dd/mm/yyyy) format.");
-        return false;
-    }
-
+function calculateAge(dob) { // birthday is a date
+    var ageDifMs = Date.now() - dob.getTime();
+    var ageDate = new Date(ageDifMs); // miliseconds from epoch
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
