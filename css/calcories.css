@@ -13,6 +13,11 @@ input[type=number] {
     border: none;
     border-bottom: 1px solid #F39C12;
 }
+input[type=number]:disabled {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #F39C12;
+}
 input[type=text] {
     background: transparent;
     border: none;
