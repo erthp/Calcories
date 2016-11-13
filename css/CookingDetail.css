@@ -54,3 +54,11 @@ body{
       border-left-width: 4px;
       padding-left: 1%;
     }
+    .tips{
+      margin-left: 18.5%;
+    }
+    .tips h3{
+      border-left: 1px solid #ff6600;
+      border-left-width: 4px;
+      padding-left: 1%;
+    }
