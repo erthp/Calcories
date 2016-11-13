@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+body{
+      font-family: 'Rubik';
+    }
+    h1{
+      margin-left: 18.5%; 
+    }
+    .ingredients{
+      margin-left: 18.5%;
+    }
+    .ingredients h3{
+      border-left: 1px solid #ff6600;
+      border-left-width: 4px;
+      padding-left: 1%;
+    }
+    .prepare{
+      margin-left: 18.5%;
+    }
+    .prepare h3{
+      border-left: 1px solid #ff6600;
+      border-left-width: 4px;
+      padding-left: 1%;
+    }
+    .custom-counter {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    .custom-counter li {
+      counter-increment: step-counter;
+      margin-bottom: 5px;
+    }
+    .custom-counter li::before {
+      content: counter(step-counter);
+      margin-right: 20px;
+      padding: 3px 8px;
+      color: #8c8c8c;
+      border: 1px solid #8c8c8c;
+      border-radius: 15px;
+    }
+    .description{
+      margin-left: 18.5%;
+    }
+    .description h3{
+      border-left: 1px solid #ff6600;
+      border-left-width: 4px;
+      padding-left: 1%;
+    }
+    .information{
+      margin-left: 18.5%;
+    }
+    .information h3{
+      border-left: 1px solid #ff6600;
+      border-left-width: 4px;
+      padding-left: 1%;
+    }
