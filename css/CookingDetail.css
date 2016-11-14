@@ -62,3 +62,31 @@ body{
       border-left-width: 4px;
       padding-left: 1%;
     }
+    .showMenu{
+      float: left;
+      margin-left: 18%;
+      background-color: #e6e6e6;
+      padding: 1%;
+      color: #4d2800;
+      margin-bottom: 1.5%;
+    }
+    .showMenu p{
+      font-size: 12pt;
+      opacity: 1;
+    }
+    .btn{
+      border: 2px solid #ff6600;
+      border-radius: 17px;
+    }
+    .btn a{
+      color: #ff6600;
+      font-weight: bold;
+    }
+    .btn a:hover{
+      color: #ff6600;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .btn a:visited{
+      text-decoration: none;
+    }
