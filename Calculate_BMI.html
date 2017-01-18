@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BMI</title>
+
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendor/others/profile.css">
+        <link rel="stylesheet" href="css/calcories.css">
+        <link href="css/agency.min.css" rel="stylesheet">
+
+        <link rel="shortcut icon" href="">
+	<style type="text/css">
+		.bmi{
+			width: 20%;
+			margin: auto;
+		}
+		.showBMI{
+			text-align: center;
+		}
+		.showBMI p{
+			font-size: 40pt;
+		}
+		.table{
+			width: 40%;
+			text-align: center;
+			margin: auto;
+		}
+		.cal{
+			text-align: center;
+			width: 60%;
+			margin: auto;
+			font-size: 16pt;
+		}
+	</style>
+</head>
+<body id="page-top" class="index">
+        <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header page-scroll">
+                        <a class="navbar-calcories page-scroll" href="index.html" style="color:#F27935;">Calcories</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden">
+                                <a href="#page-top"></a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="index.html#about" style="color:#F27935;">About</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="index.html#portfolio" style="color:#F27935;">Voucher</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="index.html#team" style="color:#F27935;">Team</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="Profile.html" style="color:#F27935;">Mickey</a>
+                            </li>
+                        </ul>
+                    </div>  
+                </div> 
+        </nav>
+    <div class="paddingprofile">
+        <div class="container">
+            <div class="row">	<h1 style="text-align: center; ">Calculate BMI</h1>
+	<br>
+	<div class="bmi">
+	<form>
+		<div class="form-group">
+			<label>Weight (kg.)</label>
+			<input type="text" class="form-control">
+		</div>
+		<div class="form-group">
+			<label>Height (cm.)</label>
+			<input type="text" class="form-control">
+		</div>
+		<button type="submit" class="btn btn-default">Calculate</button>
+	</form>
+	</div>
+	<br>
+	<br>
+	<div class="showBMI">
+	<h5>BMI</h5>
+	<p>0</p>
+	</div>
+	<br>
+	<br>
+	<div>
+	<table class="table">
+		<tr style="color: orange;">
+			<td>BMI kg/m2</td>
+			<td>อยู่ในเกณท์</td>
+			<td>ภาวะเสี่ยงต่อโรค</td>
+		</tr>
+		<tr>
+			<td>น้อยกว่า 18.50</td>
+			<td>น้ำหนักน้อย / ผอม</td>
+			<td>มากกว่าคนปกติ</td>
+		</tr>
+		<tr>
+			<td>ระหว่าง 18.50 - 22.90</td>
+			<td>ปกติ (สุขภาพดี)</td>
+			<td>เท่าคนปกติ</td>
+		</tr>
+		<tr>
+			<td>ระหว่าง 23 - 24.90</td>
+			<td>ท้วม / โรคอ้วนระดับ 1</td>
+			<td>อันตรายระดับ 1</td>
+		</tr>
+		<tr>
+			<td>ระหว่าง 25 - 29.90</td>
+			<td>อ้วน / โรคอ้วนระดับ 2</td>
+			<td>อันตรายระดับ 2</td>
+		</tr>
+		<tr>
+			<td>มากกว่า 30</td>
+			<td>อ้วนมาก / โรคอ้วนระดับ 3</td>
+			<td>อันตรายระดับ 3</td>
+		</tr>
+	</table>
+	</div>
+	<br>
+	<br>
+	<h1 style="text-align: center; ">Colories today</h1>
+	<br>
+	<div class="cal">
+	<table class="table">
+		<tr style="color: orange;">
+			<td>Your calories</td>
+			<td>Calories today</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+	</table>
+	</div>
+	</div>
+	</div>
+	</div>
+	<script src="assets/js/jquery-3.1.1.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+        <script src="js/agency.min.js"></script>
+        <script src="vendor/icheck/icheck.js"></script>
+        <link href="vendor/icheck/skins/flat/orange.css" rel="stylesheet">
+        <script src="vendor/icheck/icheck.js"></script>
+        <script>
+            $(document).ready(function(){
+              $('input').iCheck({
+                checkboxClass: 'icheckbox_flat-orange',
+                radioClass: 'iradio_flat-orange'
+              });
+            });
+        </script>
+        <script src="js/calcories.js"></script>
+</body>
+</html>
